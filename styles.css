@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 35px;
+}
+
+#about-me ~ p {
+    color: pink;
+    font-size: 20px;
+}
+
+h2, p {
+    color: grey;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px 0 8px;
+}
+
+main {
+    display: block;
+    background-color: #E4E4E7;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    min-height: 85%;
+}
+
+.text-class {
+    color: black;
+}
+
+#qualities {
+    background-color: plum;
+    color: white;
+}
+
+header {
+    color: white;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #27272A;
+    padding: 15px;
+}
+
+.profile-pic {
+    height: 20em;
+}

@@ -5,45 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amy Smith</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="pages/contact-me.html">Contact Me</a></li>
-                <li> <a href="pages/my-projects.html">My Projects</a></li>
+                <li> <a style="color: white" href="pages/contact-me.html">Contact Me</a></li>
+                <li> <a style="color: white" href="pages/my-projects.html">My Projects</a></li>
             </ul>
         </nav>
-            <h1>Amy Smith</h1>
-                <h2>Life is a life-long lesson. Nothing is impossible</h2>
-            <img src="images/ponder.jpeg" alt="Hmm ...">
-            <hr />
-        <br />
     </header> 
+<!--     <style>
+        h1 {
+            color: red;
+        }
+    </style> -->
     <main>
     <section>
-        <h3>About Me</h3>
-            <p>I started my IT career as a Documentation Specialist, writing user manuals for complex software and 
+        <br>
+        <h1>Amy Smith</h1>
+                <h2>Learning is a continuous process. Nothing is impossible</h2>
+                <br>
+            <img class="profile-pic" src="images/ponder.jpeg" alt="Hmm ...">
+            <hr />
+    <div id="about-me">
+        <h3 class="text-class">About Me</h3>
+            <p>I started my IT career as a <span class="highlight">Documentation Specialist</span>, writing user manuals for complex software and 
             online applications. I achieved a Cisco certification, took lessons in Unix fundamentals, 
             went to university and achieved a first class honours in computer networks. Before completing 
             my university degree, I worked as a network manager in a small ISP.
             </p>
-        
+            <br>
             <p>I have always wanted to learn to code well. I have scattered knowledge of programming, 
                 html/css/js. I joined the coding bootcamp because I want to learn to code properly, from 
                 A to Z - the works. I wish to return to IT, nothing is impossible, and it's never 
                 too late.
             </p>
             <figure>
-                <img src="images/patrick-perkins-pMH8V4u81QY-unsplash.jpg" alt="Photograph of reflection in a puddle of rainwater">
+                <img class="profile-pic" src="images/patrick-perkins-pMH8V4u81QY-unsplash.jpg" alt="Photograph of reflection in a puddle of rainwater">
                 <br />
                 <figcaption>
                     Reflective, consistent, cumulative, ripples
                 </figcaption>
             </figure>
+            <div>
+                <p>Third paragraph</p>
+            </div>
+    </div>
     </section>
     <section>
+        <div id="qualities">
         <h3>Qualities</h3>
+        </div>
             <ol>
                 <li>Knowledge</li>
                 <li>Understanding concepts</li>
@@ -51,7 +65,7 @@
             </ol>
     </section>
     <section>
-        <h3>Hobbies & Interests</h3>
+        <h3 class="text-class">Hobbies & Interests</h3>
             <ul>
                 <li>When I hear a piece of music that I like, I would play it by ear on the piano</li>
                 <li>I enjoy reading detective stories, as I like working things out</li>
