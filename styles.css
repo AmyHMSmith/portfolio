@@ -1,71 +1,65 @@
 * {
-    margin: 0;
-}
-
-* {
-    font-family: Arial, Verdana, sans-serif;
-}
-
-h1 {
-    color: black;
-    font-size: 50px;
-}
-
-h3 {
-    color: black;
-    font-size: 35px;
-}
-
-#about-me ~ p {
-    color: pink;
-    font-size: 20px;
-}
-
-h2, p {
-    color: grey;
-}
-
-
-.highlight {
-    background-color: yellow;
-}
-
-nav > ul > li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 8px 0 8px;
-}
-
-main {
-    display: block;
-    background-color: #E4E4E7;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    padding-left: 4em;
-    padding-right: 4em;
-    min-height: 85%;
-}
-
-.text-class {
-    color: black;
-}
-
-#qualities {
-    background-color: plum;
-    color: white;
+    margin: 10px;
 }
 
 header {
-    color: white;
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #27272A;
-    padding: 15px;
+    height:100px;
+    width: 100vw;
 }
 
-.profile-pic {
-    height: 20em;
+/*@media only screen and (min-width: 786) {
+
+    .section{
+        height: 200px;
+}*/
+
+h1 {
+    font-family: cursive;
+    text-align: left;
+    font-size: 18pt;
 }
+  
+h2 {
+    font-size: 15pt;
+}
+  a {
+    text-decoration: none;
+    color: white;
+    background-color: #064172;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18pt;
+    margin: 20px;
+  }
+
+  div.leftTitle {
+    font-family: cursive;
+    justify-content: flex-start;
+  }
+
+  div.rightLinks {
+    justify-content: flex-end;
+  }
+  
+  nav {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    background-color: #064172;
+    border: 6px outset grey;
+  }
+  
+  .profile-pic {
+    height: 20%;
+    width: 10%;
+    margin: 40px;
+    float: left;
+  }
+
+  article {
+    background-color: #42BFDD;
+    padding: 2em;
+    height: 50%;
+    text-align: left;
+    justify-items: right;
+  }
